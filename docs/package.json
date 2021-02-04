@@ -1,0 +1,24 @@
+{
+  "name": "blog",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "authors": {
+    "name": "MrTan",
+    "email": "freemrtan@gmail.com"
+  },
+  "repository": "git@github.com:ggggxiaolong/ggggxiaolong.github.io.git/blog",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-blog": "^1.9.4",
+    "@vuepress/plugin-medium-zoom": "^1.8.0",
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "vuepress-theme-reco": "^1.6.1"
+  }
+}
