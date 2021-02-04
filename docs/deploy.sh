@@ -4,13 +4,13 @@
 set -e
 
 # build
-npm run docs:build
+yarn build
 
 # navigate into the build output directory
-cd docs/.vuepress/dist
+cd src/.vuepress/dist
 
 # if you are deploying to a custom domain
-echo 'www.chuntian.press' > CNAME
+echo 'chuntian.press' > CNAME
 
 git init
 git add -A
