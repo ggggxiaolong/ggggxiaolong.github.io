@@ -9,6 +9,7 @@
   },
   "repository": "git@github.com:ggggxiaolong/ggggxiaolong.github.io.git/blog",
   "scripts": {
+    "push": "./deploy.sh",
     "dev": "vuepress dev src",
     "build": "vuepress build src"
   },
