@@ -1,0 +1,11 @@
+# serverless.yml
+
+myvuepress:
+  component: "@serverless/tencent-website"
+  inputs:
+    code:
+      src: ./dist/ # Upload static files
+      index: index.html
+      error: 404.html
+    region: ap-guangzhou
+    bucketName: blog
