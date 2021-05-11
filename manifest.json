@@ -1,0 +1,23 @@
+{
+    "name": "MrTan",
+    "short_name": "Tan",
+    "description": "谈小龙的博客",
+    "icons": [
+      {
+        "src": "/icons/T.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      }, {
+        "src": "/icons/T.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      }, {
+        "src": "/icons/T.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#fff"
+  }
