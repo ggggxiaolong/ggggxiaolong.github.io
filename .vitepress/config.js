@@ -23,7 +23,9 @@ export default defineConfig({
             { text: 'Home', link: '/' },
             { text: 'Archives', link: '/pages/archives' },
             { text: 'Tags', link: '/pages/tags' },
-            { text: 'About', link: '/pages/about' }
+            { text: 'About', link: '/pages/about' },
+            { text: 'Demo', link: '/pages/demo' }
+            // { text: 'Three.js', link: '/pages/threejs_journey' }
             // { text: 'Airene', link: 'http://airene.net' }  -- External link test
         ],
 
